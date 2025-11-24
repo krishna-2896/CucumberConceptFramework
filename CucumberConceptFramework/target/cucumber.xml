@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="197.656" tests="7" skipped="0" failures="1" errors="0" timestamp="2025-11-10T05:58:39.010632800Z">
+<testcase classname="Verifying RedBus SignUP &amp; Login Details" name="Verifying after click on Account option Login Side bar should be displayed" time="47.62">
+<system-out><![CDATA[
+Given User is on Redbus page................................................passed
+When User should verify after click on Account option Login Side bar should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying RedBus SignUP &amp; Login Details" name="Verifying after click on Close button from Account Option Side bar should be closed" time="24.534">
+<system-out><![CDATA[
+Given User is on Redbus page................................................passed
+When User should verify after click on Account option Login Side bar should be displayed.passed
+Then User should verify after click on close button from Account Option Side bar should be closed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying RedBus SignUP &amp; Login Details" name="Verifying user click on SignUp option SignUp popup box should be displayed" time="13.687">
+<system-out><![CDATA[
+Given User is on Redbus page................................................passed
+When User should verify after click on Account option Login Side bar should be displayed.passed
+Then User should verify after click on SignUP option then displayed on SignUP popup box "Login to get exciting offers".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying RedBus SignUP &amp; Login Details" name="Verifying user click on Radio button from country code dropdown list then required code select and displayed" time="20.207">
+<system-out><![CDATA[
+Given User is on Redbus page................................................passed
+When User should verify after click on Account option Login Side bar should be displayed.passed
+Then User should verify after click on SignUP option then displayed on SignUP popup box "Login to get exciting offers".passed
+Then User should verify after click on country code then list should be displayed.passed
+Then User should verify after click on country code radio btn list should select and displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying RedBus SignUP &amp; Login Details" name="Verifying user enter any letters and numbers in coundry code list search bar related name or code is displayed and selectable - #1.1" time="18.904">
+<system-out><![CDATA[
+Given User is on Redbus page................................................passed
+When User should verify after click on Account option Login Side bar should be displayed.passed
+Then User should verify after click on SignUP option then displayed on SignUP popup box "Login to get exciting offers".passed
+Then User should verify after click on country code then list should be displayed.passed
+Then User should verify after enter any letters or numbers in the country code list search bar related name or code displayed and selectable "India".passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying RedBus SignUP &amp; Login Details" name="Verifying user enter the valid phone number then generate OTP and  button clickable - #1.1" time="49.105">
+<failure type="org.openqa.selenium.TimeoutException" message="Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (b7c8e26942b2b976648f8dc935852fc7)] -&gt; xpath: //button[text()='Generate OTP']] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62319}, goog:processID: 17224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62319/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7c8e26942b2b976648f8dc935852fc7">
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on windows (b7c8e26942b2b976648f8dc935852fc7)] -> xpath: //button[text()='Generate OTP']] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62319}, goog:processID: 17224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62319/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7c8e26942b2b976648f8dc935852fc7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.common.BaseClass.waitForClickable(BaseClass.java:265)
+	at com.stepdefinition.RedBusSignUpSteps.user_should_enter_the_valid_phone_number(RedBusSignUpSteps.java:58)
+	at ✽.User should enter the valid phone number "7305266403"(file:///C:/Users/hp/eclipse-workspace/CucumberConceptFramework/src/test/resources/Features/RedBusSignup.feature:41)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is on Redbus page................................................passed
+When User should verify after click on Account option Login Side bar should be displayed.passed
+Then User should verify after click on SignUP option then displayed on SignUP popup box "Login to get exciting offers".passed
+Then User should enter the valid phone number "7305266403"..................failed
+Then User should verify generate OTP and btn clickable using valid phone number then navigate to OTP menu "Enter the OTP we just sent you".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Verifying RedBus SignUP &amp; Login Details" name="Verifying user enter the invalid phone number - #1.1" time="22.793">
+<system-out><![CDATA[
+Given User is on Redbus page................................................passed
+When User should verify after click on Account option Login Side bar should be displayed.passed
+Then User should verify after click on SignUP option then displayed on SignUP popup box "Login to get exciting offers".passed
+Then User should enter the invalid phone number "5657576748"................passed
+Then User should verify enter invalid phone number displayed error message contains "Please enter a valid mobile number".passed
+]]></system-out>
+</testcase>
+</testsuite>
